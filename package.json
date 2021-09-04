@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "postinstall": "ng build --output-path angularapp --aot --prod"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -37,10 +36,5 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.3.5"
-  },
-
-  "engines": {
-    "node": "14.17.5",
-    "npm": "7.21.1"
   }
 }
